@@ -1,5 +1,5 @@
   .nav-bar {
- position: absolute;
+ position: fixed;
   right: 0;
   top: 0;
   left: 0;
@@ -8,6 +8,7 @@
   text-align: center;
   width: 100%;
   height: 40px;
+  z-index: 9999;
 }
 
 nav li {
@@ -52,4 +53,9 @@ footer {
   font-weight: 700;
   font-size: 26px;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+.resize {
+  size: 50%;
+
 }
