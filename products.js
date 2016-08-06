@@ -1,16 +1,21 @@
-var display = document.getElementById("products");
-var items = [
-{name:"Name", description:"description", img:"img/braco-horseriding-in-sea.jpg", price:"$200000000"},
-{name:"Name", description:"description", img:"img/braco-horseriding-in-sea.jpg", price:"$200000000"},
-{name:"Name", description:"description", img:"img/braco-horseriding-in-sea.jpg", price:"$200000000"},
-{name:"Name", description:"description", img:"img/braco-horseriding-in-sea.jpg", price:"$200000000"},
-
+var first = document.getElementById("products");
+var tripSection = [
+{name:"Name", description:"description", image:"img/horseriding.jpg", price:"$99"},
+{name:"Name", description:"description", image:"img/images.jpg", price:"$100"},
+{name:"Name", description:"description", image:"img/images-1.jpg", price:"$200"},
+{name:"Name", description:"description", image:"img/images-2.jpg", price:"$300"},
+{name:"Name", description:"description", image:"img/images-3.jpg", price:"$400"},
+{name:"Name", description:"description", image:"img/images-4.jpg", price:"$500"},
+{name:"Name", description:"description", image:"img/images-5.jpg", price:"$600"},
+{name:"Name", description:"description", image:"img/images-6.jpg", price:"$700"}
 ];
 
-for (var i = 0; i < items.length; i++) {
-  display.innerHTML += "<img src='"+items[i].img+"'>";
-  display.innerHTML+="<p>"+(items[i].name)+"</p>";
-  display.innerHTML+="<p>"+(items[i].description)+"</p>";
-  display.innerHTML+="<p>"+(items[i].price)+"</p>";
-}
 
+
+for (var i = 0; i < tripSection.length; i++) {
+  var destinationCard = "";
+  destinationCard += "<div class='destinationCard'><img class='cardImg' src='"+tripSection[i].image+"'><p>"+(tripSection[i].name)+"</p><p>"+(tripSection[i].description)+"</p><p>"+(tripSection[i].price)+"</p></div>";
+  first.innerHTML += destinationCard
+
+  console.log(first)
+}

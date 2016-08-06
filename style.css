@@ -36,11 +36,17 @@ nav li a:active {
 }
 
 
-.logo {
-  display: inline-block;
-  float: left;
+nav li a{
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
 }
 
+.logo {
+  float: left;
+  margin-left: 20px;
+  margin-top: 40px;
+}
 
 footer {
   position: fixed;
@@ -54,6 +60,16 @@ footer {
   height: 35px;
   color: white;
 }
+
+#products {
+  position: absolute;
+  text-align: center;
+  display: inline-flex;
+  width: 100%;
+  margin-top: 3.1em;
+  padding: 50px 200px 0 350px;
+}
+
 /* Testimonials Page Styling */
 #mainimg {
   width: 100%;
@@ -150,3 +166,4 @@ h5 > a:hover {
 .resize {
   size: 50%;
 }
+
