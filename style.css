@@ -137,10 +137,16 @@ h5 > a:hover {
   background-size: cover;
   opacity: 0.8;
 }
+
 #testimonials section:nth-of-type(0n+6) {
   height: 300px;
   background: url("../img/testimonials8.jpeg") no-repeat;
   background-position: center;
   background-size: cover;
   opacity: 0.8;
+}
+
+/*Unknown Styling*/
+.resize {
+  size: 50%;
 }
