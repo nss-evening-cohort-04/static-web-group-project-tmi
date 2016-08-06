@@ -132,26 +132,26 @@ footer {
 	font-family: sans-serif;
 }
 
-h1.h-1s {
+.h-1s {
 	font-size: 70px;
 }
 
-span.spans {
+.spans {
 	font-size: 15px;
 	font-style: italic;
 }
 
-article.articles {
+.articles {
   margin-top: -375px;
 }
 
-article.articles h1, 
-article.articles h2 {
+.articles h1, 
+.articles h2 {
   color: white;
   margin-bottom: 100px;
 }
 
-p.parag {
+.parag {
   margin: 0 400px;
 }
 
@@ -161,7 +161,7 @@ p.parag {
 	margin-bottom: 100px;
 }
 
-img.images {
+.images {
 	border: 1px solid black;
   width: 100%;
 	}
