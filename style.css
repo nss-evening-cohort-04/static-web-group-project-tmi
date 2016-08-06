@@ -29,7 +29,7 @@ nav li a {
 }
 
 nav li a:hover {
-  color: lightblue;
+  color: teal;
 }
 nav li a:active {
   color: blue;
@@ -97,7 +97,7 @@ h5 > a {
 }
 
 h5 > a:hover {
-  color: lightblue;
+  color: teal;
 }
 
 
