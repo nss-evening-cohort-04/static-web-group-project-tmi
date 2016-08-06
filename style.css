@@ -63,6 +63,10 @@ nav li a:active {
   margin-left: 20px;
   margin-top: 40px;
 }
+#container {
+    margin-bottom: 3.1em;
+    margin-top: 3.1em;
+}
 footer {
   position: fixed;
   right: 0;
@@ -72,11 +76,103 @@ footer {
   background-color: #444;
   text-align: center;
   width: 100%;
-  height: 35px;
+  height: 40px;
   margin: 0;
   color: white;
 }
+/*Home Page Styling*/
+#mainHomePage {
+  width: 100%;
+  height: 500px;
+  background: url("/img/hero1.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+  margin-top: 3.1em;
+  margin-bottom: 1em;
+}
+#mainHomePage h1 {
+  text-align: center;
+  font-size: 4em;
+  padding-top: 3em;
+  text-shadow: 1px 1px 1px #000;
+}
 
+#mainHomePage h3 {
+  text-align: center;
+  font-size: 2em;
+  font-style: italic;
+  text-shadow: 1px 1px 1px #000;
+}
+
+#mainHomePage h3 a{
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 1em;
+  text-decoration: none;
+  color: #000;
+}
+#mainHomePage h3 a:hover {
+  color: teal;
+}
+#mainPages section {
+  height: 10em;
+  width: 22.22%;
+  margin: 1em;
+  display: inline-block;
+}
+
+#aboutPage {
+  background: url("/img/testimonials4.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  margin-top: 3.1em;
+}
+
+#testimonialsPage {
+  background: url("/img/testimonials3.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  margin-top: 3.1em;
+}
+
+#contactPage {
+  background: url("/img/travel1.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  margin-top: 3.1em;
+}
+#newsPage {
+  background: url("/img/testimonials2.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  margin-top: 3.1em;
+}
+#mainPages section h2 a {
+  text-align: center;
+  padding: 1.2em;
+  text-shadow: 1px 1px 1px #FFF;
+  font-size: 1em;
+  text-decoration: none;
+  color: #000;
+}
+#mainPages section h2 a:hover {
+  color: teal;
+}
 /*News Page Styling */
 .news-background {
   background: url("/img/ocean-sunset.jpeg");
@@ -140,13 +236,12 @@ margin: 20px;
 #mainimg {
   width: 100%;
   height: 500px;
-  background: url("../img/mainimage.jpeg") no-repeat;
+  background: url("/img/mainimage.jpeg") no-repeat;
   background-position: center;
   background-size: cover;
   opacity: 0.8;
   margin: 0;
   padding: 0;
-  margin-top: 3.1em;
 }
 
 
@@ -247,35 +342,35 @@ margin: 20px;
 }
 #testimonials section:first-of-type {
   height: 300px;
-  background: url("../img/testimonials1.jpeg") no-repeat;
+  background: url("/img/testimonials1.jpeg") no-repeat;
   background-position: bottom;
   background-size: cover;
   opacity: 0.8;
 }
 #testimonials section:nth-of-type(0n+2) {
   height: 300px;
-  background: url("../img/testimonials2.jpeg") no-repeat;
+  background: url("/img/testimonials2.jpeg") no-repeat;
   background-position: center;
   background-size: cover;
   opacity: 0.8;
 }
 #testimonials section:nth-of-type(0n+3) {
   height: 300px;
-  background: url("../img/testimonials3.jpeg") no-repeat;
+  background: url("/img/testimonials3.jpeg") no-repeat;
   background-position: center;
   background-size: cover;
   opacity: 0.8;
 }
 #testimonials section:nth-of-type(0n+4) {
   height: 300px;
-  background: url("../img/testimonials4.jpeg") no-repeat;
+  background: url("/img/testimonials4.jpeg") no-repeat;
   background-position: center;
   background-size: cover;
   opacity: 0.8;
 }
 #testimonials section:nth-of-type(0n+5) {
   height: 300px;
-  background: url("../img/testimonials5.jpeg") no-repeat;
+  background: url("/img/testimonials5.jpeg") no-repeat;
   background-position: center;
   background-size: cover;
   opacity: 0.8;
@@ -283,7 +378,7 @@ margin: 20px;
 
 #testimonials section:nth-of-type(0n+6) {
   height: 300px;
-  background: url("../img/testimonials8.jpeg") no-repeat;
+  background: url("/img/testimonials8.jpeg") no-repeat;
   background-position: center;
   background-size: cover;
   opacity: 0.8;
