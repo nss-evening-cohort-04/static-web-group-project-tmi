@@ -39,9 +39,6 @@ nav li a {
 nav li a:hover {
   color: teal;
 }
-nav li a:active {
-  color: blue;
-}
 .logo {
   float: left;
   margin-left: 2em;
@@ -67,6 +64,13 @@ footer {
   height: 40px;
   margin: 0;
   color: white;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: teal;
 }
 /*Home Page Styling*/
 #mainHomePage {
