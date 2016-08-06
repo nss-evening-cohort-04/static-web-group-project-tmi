@@ -23,7 +23,7 @@ nav li {
 
 
 footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
@@ -33,3 +33,68 @@ footer {
   width: 100%;
   height: 35px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====About Page==================================*/
+
+.about {
+	/*margin: 50px 200px 1px 200px;*/
+	text-align: center;
+	/*background-color: lightblue;*/
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+span {
+	font-size: 15px;
+	font-style: italic;
+}
+
+article {
+  margin-top: -375px;
+}
+
+article h1, 
+article h2 {
+  color: white;
+  margin-bottom: 100px;
+}
+
+p {
+  margin: 0 400px;
+}
+
+.history, 
+.mission,
+.culture {
+	margin-bottom: 100px;
+}
+
+img {
+	border: 1px solid black;
+  width: 100%;
+	}
+
+
+
+
+
+
