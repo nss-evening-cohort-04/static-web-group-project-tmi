@@ -1,9 +1,11 @@
 body {
   margin: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
   font-family: sans-serif;
+
 }
+
 .nav-bar {
   position: fixed;
   right: 0;
@@ -18,6 +20,18 @@ body {
   margin: 0;
 }
 
+
+
+
+.nav-bar ul {
+  padding: 0;
+  margin: 0;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 2em;
+  color: teal;
+}
 nav li {
   display: inline-block;
   float: right;
@@ -28,7 +42,6 @@ nav li a {
   color: white;
   font-size: 1.2em;
 }
-
 nav li a:hover {
   color: teal;
 }
@@ -36,13 +49,19 @@ nav li a:active {
   color: blue;
 }
 
-
-nav li a{
-  color: white;
-  font-size: 1.2em;
-  text-decoration: none;
+.logo {
+  float: left;
+  margin-left: 2em;
 }
-
+.logoBig {
+  float: left;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+#container {
+  margin-bottom: 3.1em;
+  margin-top: 3.1em;
+}
 
 footer {
   position: fixed;
@@ -53,11 +72,104 @@ footer {
   background-color: #444;
   text-align: center;
   width: 100%;
-  height: 35px;
+  height: 40px;
   margin: 0;
+  color: white;
+}
+/*Home Page Styling*/
+#mainHomePage {
+  width: 100%;
+  height: 500px;
+  background: url("/img/hero1.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+  margin-top: 3.1em;
+  margin-bottom: 1em;
+}
+#mainHomePage h1 {
+  text-align: center;
+  font-size: 4em;
+  padding-top: 3em;
+  text-shadow: 1px 1px 1px #000;
 }
 
+#mainHomePage h3 {
+  text-align: center;
+  font-size: 2em;
+  font-style: italic;
+  text-shadow: 1px 1px 1px #000;
+}
 
+#mainHomePage h3 a{
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 1em;
+  text-decoration: none;
+  color: #000;
+}
+#mainHomePage h3 a:hover {
+  color: teal;
+}
+#mainPages section {
+  height: 10em;
+  width: 22.22%;
+  margin: 1em;
+  display: inline-block;
+}
+
+#aboutPage {
+  background: url("/img/testimonials4.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  margin-top: 3.1em;
+}
+
+#testimonialsPage {
+  background: url("/img/testimonials3.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  margin-top: 3.1em;
+}
+
+#contactPage {
+  background: url("/img/travel1.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  margin-top: 3.1em;
+}
+#newsPage {
+  background: url("/img/testimonials2.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  margin-top: 3.1em;
+}
+#mainPages section h2 a {
+  text-align: center;
+  padding: 1.2em;
+  text-shadow: 1px 1px 1px #FFF;
+  font-size: 1em;
+  text-decoration: none;
+  color: #000;
+}
+#mainPages section h2 a:hover {
+  color: teal;
+}
+/*News Page Styling */
 .news-background {
   background: url("/img/ocean-sunset.jpeg");
   z-index: 500;
@@ -67,7 +179,6 @@ footer {
   width: 105%;
   margin: 0;
 }
-
 .news-header {
   z-index:  600;
   margin: 0;
@@ -79,19 +190,16 @@ footer {
 }
 
 
+
 /* Trips - Products page styling*/
 
-.logo {
-  display: center;
-  margin-left: 20px;
-  margin-top: 55px;
-}
 
 #products {
   text-align: center;
   display: inline-flex;
   margin-top: 3.1em;
 }
+
 
 .trips-banner {
   width: 100%;
@@ -106,18 +214,113 @@ footer {
 
 /* ^^^^^^^^^^^^Trips - Products page styling^^^^^^^^^^^^^^*/
 
+
+/* Contact page styling */
+
+.banner {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  margin-top: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  text-shadow: initial;
+  width: 100%;
+  height: 200%;
+  background: url("img/sky.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.thumbnail img {
+  height: 250px;
+  width: 100%;
+}
+
+.firstsection div{
+  max-width: 300px;
+  display: inline-block;
+  margin: 20px;
+}
+
+
 /* Testimonials Page Styling */
 #mainimg {
   width: 100%;
   height: 500px;
-  background: url("../img/mainimage.jpeg") no-repeat;
+  background: url("/img/mainimage.jpeg") no-repeat;
   background-position: center;
   background-size: cover;
   opacity: 0.8;
   margin: 0;
   padding: 0;
-  margin-top: 3.1em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====About Page==================================*/
+
+.about {
+	/*margin: 50px 200px 1px 200px;*/
+	text-align: center;
+	/*background-color: lightblue;*/
+	font-family: sans-serif;
+}
+
+.h-1s {
+	font-size: 70px;
+}
+
+.spans {
+	font-size: 15px;
+	font-style: italic;
+}
+
+.articles {
+  margin-top: -375px;
+}
+
+.articles h1,
+.articles h2 {
+  color: white;
+  margin-bottom: 100px;
+}
+
+.parag {
+  margin: 0 400px;
+}
+
+.history,
+.mission,
+.culture {
+	margin-bottom: 100px;
+}
+
+.images {
+	border: 1px solid black;
+  width: 100%;
+}
+
+
+
+
+
 #mainimg h1 {
   text-align: center;
   font-size: 5em;
@@ -143,48 +346,44 @@ footer {
   font-size: 2em;
   margin: 0;
 }
-h5 > a {
+#testimonials h5 > a {
   text-decoration: none;
   color: white;
 }
-
-h5 > a:hover {
+#testimonials h5 > a:hover {
   color: teal;
 }
-
-
-
 #testimonials section:first-of-type {
   height: 300px;
-  background: url("../img/testimonials1.jpeg") no-repeat;
+  background: url("/img/testimonials1.jpeg") no-repeat;
   background-position: bottom;
   background-size: cover;
   opacity: 0.8;
 }
 #testimonials section:nth-of-type(0n+2) {
   height: 300px;
-  background: url("../img/testimonials2.jpeg") no-repeat;
+  background: url("/img/testimonials2.jpeg") no-repeat;
   background-position: center;
   background-size: cover;
   opacity: 0.8;
 }
 #testimonials section:nth-of-type(0n+3) {
   height: 300px;
-  background: url("../img/testimonials3.jpeg") no-repeat;
+  background: url("/img/testimonials3.jpeg") no-repeat;
   background-position: center;
   background-size: cover;
   opacity: 0.8;
 }
 #testimonials section:nth-of-type(0n+4) {
   height: 300px;
-  background: url("../img/testimonials4.jpeg") no-repeat;
+  background: url("/img/testimonials4.jpeg") no-repeat;
   background-position: center;
   background-size: cover;
   opacity: 0.8;
 }
 #testimonials section:nth-of-type(0n+5) {
   height: 300px;
-  background: url("../img/testimonials5.jpeg") no-repeat;
+  background: url("/img/testimonials5.jpeg") no-repeat;
   background-position: center;
   background-size: cover;
   opacity: 0.8;
@@ -192,7 +391,7 @@ h5 > a:hover {
 
 #testimonials section:nth-of-type(0n+6) {
   height: 300px;
-  background: url("../img/testimonials8.jpeg") no-repeat;
+  background: url("/img/testimonials8.jpeg") no-repeat;
   background-position: center;
   background-size: cover;
   opacity: 0.8;
@@ -203,4 +402,6 @@ h5 > a:hover {
   size: 50%;
 
 }
+
+
 
