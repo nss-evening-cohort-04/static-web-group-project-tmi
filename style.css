@@ -16,8 +16,17 @@ body {
   height: 40px;
   z-index: 9999;
   margin: 0;
-}
 
+}
+.nav-bar ul {
+  padding: 0;
+  margin: 0;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 2em;
+  color: teal;
+}
 nav li {
   display: inline-block;
   float: right;
@@ -28,27 +37,21 @@ nav li a {
   color: white;
   font-size: 1.2em;
 }
-
 nav li a:hover {
   color: teal;
 }
 nav li a:active {
   color: blue;
 }
-
-
-nav li a{
-  color: white;
-  font-size: 1.2em;
-  text-decoration: none;
-}
-
 .logo {
+  float: left;
+  margin-left: 2em;
+}
+.logoBig {
   float: left;
   margin-left: 20px;
   margin-top: 40px;
 }
-
 footer {
   position: fixed;
   right: 0;
@@ -60,9 +63,10 @@ footer {
   width: 100%;
   height: 35px;
   margin: 0;
+  color: white;
 }
 
-
+/*News Page Styling */
 .news-background {
   background: url("/img/ocean-sunset.jpeg");
   z-index: 500;
@@ -72,7 +76,6 @@ footer {
   width: 105%;
   margin: 0;
 }
-
 .news-header {
   z-index:  600;
   margin: 0;
@@ -82,7 +85,6 @@ footer {
   font-family: 'Josefin Sans', sans-serif;
   color: white;
 }
-
 #products {
   position: absolute;
   text-align: center;
@@ -91,7 +93,6 @@ footer {
   margin-top: 3.1em;
   padding: 50px 200px 0 350px;
 }
-
 /* Testimonials Page Styling */
 #mainimg {
   width: 100%;
@@ -195,17 +196,13 @@ img {
   font-size: 2em;
   margin: 0;
 }
-h5 > a {
+#testimonials h5 > a {
   text-decoration: none;
   color: white;
 }
-
-h5 > a:hover {
+#testimonials h5 > a:hover {
   color: teal;
 }
-
-
-
 #testimonials section:first-of-type {
   height: 300px;
   background: url("../img/testimonials1.jpeg") no-repeat;
