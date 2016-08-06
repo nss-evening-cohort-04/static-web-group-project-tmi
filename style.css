@@ -118,10 +118,14 @@ footer {
   font-family: sans-serif;
   text-shadow: initial;
   width: 100%;
-  height: 200%;
+  height: 260%;
   background: url("img/sky.jpg");
   background-position: bottom;
   background-size: cover;
+}
+
+h1 {
+  font-size: 55px;
 }
 
 .thumbnail img {
