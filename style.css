@@ -148,7 +148,7 @@ margin: 20px;
   padding: 0;
   margin-top: 3.1em;
 }
-<<<<<<< HEAD
+
 
 
 
@@ -175,26 +175,26 @@ margin: 20px;
 	font-family: sans-serif;
 }
 
-h1 {
+.h-1s {
 	font-size: 70px;
 }
 
-span {
+.spans {
 	font-size: 15px;
 	font-style: italic;
 }
 
-article {
+.articles {
   margin-top: -375px;
 }
 
-article h1, 
-article h2 {
+.articles h1, 
+.articles h2 {
   color: white;
   margin-bottom: 100px;
 }
 
-p {
+.parag {
   margin: 0 400px;
 }
 
@@ -204,7 +204,7 @@ p {
 	margin-bottom: 100px;
 }
 
-img {
+.images {
 	border: 1px solid black;
   width: 100%;
 	}
@@ -213,7 +213,6 @@ img {
 
 
 
-=======
 #mainimg h1 {
   text-align: center;
   font-size: 5em;
@@ -295,6 +294,6 @@ img {
   size: 50%;
 
 }
->>>>>>> df996cd15bbededb035ef1e589d1b42d56f1609e
+
 
 
