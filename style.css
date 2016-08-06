@@ -25,13 +25,15 @@ nav li {
 
 nav li a{
   color: white;
+  font-size: 1.2em;
+  text-decoration: none;
 }
 
 .logo {
   float: left;
   margin-left: 20px;
+  margin-top: 40px;
 }
-
 
 footer {
   position: fixed;
@@ -46,42 +48,15 @@ footer {
   color: white;
 }
 
-/*.products-center-page {
-  display: flex;
-  align-items: center;
-}*/
-
-.resize {
- height: auto;
- width: auto;
- display: inline-block;
-}
-
 #products {
   position: absolute;
   text-align: center;
   display: inline-flex;
   width: 100%;
   margin-top: 3.1em;
-  padding: 50px 200px 0 200px;
+  padding: 50px 200px 0 350px;
 }
 
-#product1{
-  margin-right: 25px;
-  margin-top: 100px;
-}
-#product2{
-  margin-right: 25px;
-  margin-top: 100px;
-}
-#product3{
-  margin-right: 25px;
-  margin-top: 100px;
-}
-#product4{
-  margin-right: 25px;
-  margin-top: 100px;
-}
 
 
 
