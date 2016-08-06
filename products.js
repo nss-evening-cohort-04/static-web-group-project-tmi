@@ -1,4 +1,4 @@
-var first = document.getElementById("products");
+var products = document.getElementById("products");
 var tripSection = [
 {name:"Name", description:"description", image:"img/horseriding.jpg", price:"$99"},
 {name:"Name", description:"description", image:"img/images.jpg", price:"$100"},
@@ -15,7 +15,7 @@ var tripSection = [
 for (var i = 0; i < tripSection.length; i++) {
   var destinationCard = "";
   destinationCard += "<div class='destinationCard'><img class='cardImg' src='"+tripSection[i].image+"'><p>"+(tripSection[i].name)+"</p><p>"+(tripSection[i].description)+"</p><p>"+(tripSection[i].price)+"</p></div>";
-  first.innerHTML += destinationCard
+  products.innerHTML += destinationCard
 
-  console.log(first)
+  console.log()
 }

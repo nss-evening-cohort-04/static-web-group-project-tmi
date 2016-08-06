@@ -3,7 +3,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: sans-serif;
-} 
+}
 .nav-bar {
   position: fixed;
   right: 0;
@@ -51,6 +51,7 @@ nav li a:hover {
 #container {
   margin-bottom: 3.1em;
   margin-top: 3.1em;
+  width: 100%
 }
 footer {
   position: fixed;
@@ -182,11 +183,22 @@ footer a:hover {
   color: white;
 }
 /* Trips - Products page styling*/
+
 #products {
   text-align: center;
-  display: inline-flex;
-  margin-top: 3.1em;
 }
+
+
+.destinationCard {
+  display: inline-block;
+  background-color: lightgrey;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px;
+  width: 20%;
+}
+
 .trips-banner {
   width: 100%;
   height: 200px;
@@ -195,6 +207,7 @@ footer a:hover {
 #wrapper {
   text-align: center;
   margin: 0 auto;
+
 }
 /* ^^^^^^^^^^^^Trips - Products page styling^^^^^^^^^^^^^^*/
 /* Contact page styling */
