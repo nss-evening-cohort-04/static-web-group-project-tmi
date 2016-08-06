@@ -211,6 +211,7 @@ footer a:hover {
 }
 /* ^^^^^^^^^^^^Trips - Products page styling^^^^^^^^^^^^^^*/
 /* Contact page styling */
+
 .banner {
   position: absolute;
   right: 0;
@@ -226,6 +227,7 @@ footer a:hover {
   background-position: bottom;
   background-size: cover;
 }
+
 h1 {
   font-size: 55px;
 }
@@ -241,6 +243,15 @@ h4 {
   max-width: 300px;
   display: inline-block;
   margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.thumbnail a:hover {
+ color: red;
 }
 /*=====About Page==================================*/
 .about {
