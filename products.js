@@ -4,10 +4,11 @@ var tripSection = [
 {price:"$200", description:"This package is for those of you that have a family member that you'd like to take out to the middle of nowhere and leave for dead. Staple gun included. ", image:"img/vacation2.jpg"},
 {price:"$300", description:"This is for the family that does everything together. Whatever that may be. To be honest you should probably look elsewhere to plan  trip", image:"img/vacation3.jpg"},
 {price:"$400", description:"This package is basically for the boring peeps that like to stand around in front of fountains and look at the stars.", image:"img/vacation4.jpg"},
-{price:"$400", description:"This package is basically for the boring peeps that like to stand around in front of fountains and look at the stars.", image:"img/vacation4.jpg"},
-{price:"$400", description:"This package is basically for the boring peeps that like to stand around in front of fountains and look at the stars.", image:"img/vacation4.jpg"},{price:"$400", description:"This package is basically for the boring peeps", image:"img/vacation4.jpg"},
-{price:"$400", description:"This package is basically for the boring peeps that like to stand around in front of fountains and look at the stars.", image:"img/vacation4.jpg"},
-{price:"$400", description:"This package is basically for the boring peeps that like to stand around in front of fountains and look at the stars.", image:"img/vacation4.jpg"}
+{price:"$400", description:"This package is for the family that likes to go on vacation and disregard any responsibility or morals they may have.", image:"img/vacation5.png"},
+{price:"$400", description:"This package is for the family that wants to forget who they are. Package includes fake id and the super spa treatment.", image:"img/vacation6.png"},
+{price:"$400", description:"At this point in time, TMI Travel has given you enough information. You can tell us how to build your trip and we'll make it happen", image:"img/vacation7.png"},
+{price:"$400", description:"At this point in time, TMI Travel has given you enough information. You can tell us how to build your trip and we'll make it happen", image:"img/vacation7.png"},
+{price:"$400", description:"At this point in time, TMI Travel has given you enough information. You can tell us how to build your trip and we'll make it happen", image:"img/vacation7.png"}
 ];
 
 
