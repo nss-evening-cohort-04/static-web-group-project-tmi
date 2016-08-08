@@ -186,6 +186,7 @@ footer a:hover {
 
 #products {
   text-align: center;
+  margin-top: 20px;
 }
 
 
@@ -202,7 +203,9 @@ footer a:hover {
 }
 
 .destinationCard p {
+  width: 80%;
   padding: 0 2.5px 0 5px;
+  margin-left: 40px;
 }
 
 .trips-banner {
